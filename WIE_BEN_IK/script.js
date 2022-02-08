@@ -9,4 +9,5 @@ h1Element.style.backgroundColor = "green";
 
 //UNDERLINE
 document.getElementById("Thomas").style.textDecoration = "underline";
-document.getElementsByClassName("tweede-rij").style.backgroundColor = "Green";
+document.getElementById("Mohamed").style.backgroundColor = "green";
+document.getElementById("Baraa").style.backgroundColor = "green";
