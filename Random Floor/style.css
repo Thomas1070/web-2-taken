@@ -3,9 +3,9 @@ body {
   }
   
   @keyframes myanimation {
-    0% {background-color: yellowgreen;}
-    25%{background-color:rgb(255, 255, 137);}
-    50%{background-color:lightgreen;}
-    75%{background-color:lightgoldenrodyellow;}
-    100% {background-color: yellowgreen;}
+    0% {background-color: rgb(145, 199, 250);}
+    25%{background-color:rgb(80, 160, 197);}
+    50%{background-color:rgb(145, 199, 250);}
+    75%{background-color:rgb(80, 160, 197);}
+    100% {background-color: rgb(50, 135, 205);}
   }
