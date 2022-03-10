@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(14, 0, 63);
+}
+
+p{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: chartreuse;
+    font-family: monospace;
+}
+
+li{
+    color: coral;
+}
+
+.inMijnRij{
+    background-color: blue;
+}
+
+#Mezelf{
+    background-color: yellow;
+    text-decoration: underline;
+}

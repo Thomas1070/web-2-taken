@@ -1,0 +1,32 @@
+article {
+    background-color: salmon;
+    width: 80%;
+}
+
+body{
+    background-color: lightblue;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+main>div{
+    width: 80%;
+}
