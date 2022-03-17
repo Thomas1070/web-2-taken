@@ -4,31 +4,6 @@ const selectVoorTekstKleur = document.querySelector('#tekstkleur');
   const html = document.querySelector('html');
   document.body.style.padding = '10px';
 
-  const select = document.querySelector('select');
-const html = document.querySelector('html');
-document.body.style.padding = '10px';
-
-function updateBackgroundAndTextColor(bgColor, textColor) {
-  html.style.backgroundColor = bgColor;
-  html.style.color = textColor;
-}
-
-select.onchange = function () {
-  console.log('huidige waarde van de select / dropdown:', select.value);
-  if (select.value === 'black') {
-    updateBackgroundAndTextColor('black', 'white');
-  }
-  else if (select.value === 'white') {
-    updateBackgroundAndTextColor('white', 'black');
-  }
-  if (select.value === 'Red'){
-    updateBackgroundAndTextColor('Red', 'White');
-  }
-  else if (select.value === 'Blue') {
-    updateBackgroundAndTextColor('Blue', 'White');
-  }
-}
-
   /**
    * deze functie gaat de tekstkleur aanpassen
    * @param {*} textColor 
@@ -45,9 +20,32 @@ select.onchange = function () {
     html.style.backgroundColor = achtergrondKleur;
   }
 
+
 // je moet opnieuw linken aan de juiste select (dus selectVoorAchtergrondKleur of selectVoorTekstKleur)
 // door een functie gelijk te stellen aan (naam van de select).onchange = ... (zie oefening zwart/wit of weather switch)
 
+selectVoorAchtergrondKleur.onchange = function () {
+
+  console.log('huidige waarde van de select / dropdown:', selectVoorAchtergrondKleur.value);
+    if (selectVoorAchtergrondKleur.value === 'black') {
+        updateBackgroundColor('black', 'white');
+      } else if (selectVoorAchtergrondKleur.value === 'white') {
+        updateBackgroundColor('white', 'black');
+      }
+
+}
+
+selectVoorTekstKleur.onchange = function () {
+
+  console.log('huidige waarde van de select / dropdown:', selectVoorTekstKleur.value);
+    if (selectVoorTekstKleur.value === 'black') {
+        updateTextColor('black', 'white');
+      } else if (selectVoorTekstKleur.value === 'white') {
+        updateTextColor('white', 'black');
+      }
+
+}
 
 
-  
+
+
